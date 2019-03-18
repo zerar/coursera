@@ -1,0 +1,75 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+}
+
+
+
+h1 {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+section {
+  border: 1px solid black;
+  background-color: grey;
+  height: 215px;
+  margin: 5px;
+  overflow: hidden;
+
+}
+
+
+p.narrative {
+  padding: 15px;
+  clear:both;
+}
+
+p.sectiontitle {
+  border: 1px solid black;
+  position:relative;
+  width: 100px;
+  height: 50px;
+  top:0px;
+  right:0px;
+  float:right;
+  font-family: Helvetica;
+  color: white;
+  margin: 0px 0px 15px 0px;
+}
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+
+p#menu1 {
+  background-color: #ff00ff;
+}
+
+p#menu2 {
+  background-color: #00ffff;
+}
+p#menu3 {
+  background-color: #ff0000;
+}
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .col-dt {
+    float: left;
+    width:30%;
+  }
+ }
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-tblt, .col-fl {
+    float: left;
+  }
+  .col-tblt {
+    width: 48.4%;
+  }
+  
+  .col-fl {
+    width: 98%;
+  }
+}
