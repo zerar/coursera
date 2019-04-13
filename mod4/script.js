@@ -35,7 +35,7 @@ WARNING!!! WARNING!!!
 // (Note, Step 2 will be done in the SpeakHello.js file.)
 
 
-var byeSpeaker,  helloSpeaker;
+//var byeSpeaker,  helloSpeaker;
 
 (function() {
   var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
